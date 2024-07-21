@@ -4,7 +4,7 @@ import os
 from langchain_openai import ChatOpenAI
 os.environ["OPENAI_API_KEY"] = "sk-proj-kPX9DYERUZ7tvgm1FykqT3BlbkFJJbniRUV3Km3ionngjTZE"
 
-st.title('🦜🔗 Quickstart App')
+st.title('🦜🔗 Replies in Sam Altam Style')
 
 openai_api_key = "sk-proj-kPX9DYERUZ7tvgm1FykqT3BlbkFJJbniRUV3Km3ionngjTZE"
 
