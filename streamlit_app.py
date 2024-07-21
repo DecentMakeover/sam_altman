@@ -2,9 +2,8 @@ import streamlit as st
 from langchain.llms import OpenAI
 import os
 from langchain_openai import ChatOpenAI
-os.environ["OPENAI_API_KEY"] = "sk-proj-kPX9DYERUZ7tvgm1FykqT3BlbkFJJbniRUV3Km3ionngjTZE"
+
 st.title('🦜🔗 Replies in Sam Altam Style')# 
-openai_api_key = "sk-proj-kPX9DYERUZ7tvgm1FykqT3BlbkFJJbniRUV3Km3ionngjTZE"
 
 def generate_response(input_text):
     llm = ChatOpenAI(model="ft:gpt-3.5-turbo-1106:yethi-consulting-pvt-ltd:1:9nMccwQZ", temperature=1)
