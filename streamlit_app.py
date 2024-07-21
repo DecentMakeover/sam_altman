@@ -13,7 +13,7 @@ def generate_response(input_text):
     st.info(response)
 
 with st.form('my_form'):
-    text = st.text_area('Enter text:', 'Do you get time to read ?')
+    text = st.text_area('Enter text:', 'where do you think AI will be in 5 years ?')
     submitted = st.form_submit_button('Submit')
     if not openai_api_key.startswith('sk-'):
         st.warning('Please enter your OpenAI API key!', icon='⚠')
