@@ -3,4 +3,3 @@ langchain_community
 langchain_openai
 langchain_experimental
 langchain_chroma
-sqlite3==3.35.0
