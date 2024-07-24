@@ -1,3 +1,6 @@
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_experimental.text_splitter import SemanticChunker
 from langchain_openai import OpenAIEmbeddings
@@ -12,6 +15,7 @@ from langchain_openai import ChatOpenAI
 import os
 from langchain_community.vectorstores.chroma import Chroma
 import streamlit as st
+
 
 os.environ["OPENAI_API_KEY"] = "sk-proj-2uGtEjNF6PFHSrT5Yhu8T3BlbkFJHy5kALQ9CmnyOOQpAwCX"
 openai_api_key = "sk-proj-2uGtEjNF6PFHSrT5Yhu8T3BlbkFJHy5kALQ9CmnyOOQpAwCX"
