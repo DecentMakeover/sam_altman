@@ -17,8 +17,7 @@ from langchain_community.vectorstores.chroma import Chroma
 import streamlit as st
 
 
-os.environ["OPENAI_API_KEY"] = "sk-proj-2uGtEjNF6PFHSrT5Yhu8T3BlbkFJHy5kALQ9CmnyOOQpAwCX"
-openai_api_key = "sk-proj-2uGtEjNF6PFHSrT5Yhu8T3BlbkFJHy5kALQ9CmnyOOQpAwCX"
+
 
 st.title('🦜🔗 Replies in Sam Altam Style')# 
 llm = ChatOpenAI(model="ft:gpt-3.5-turbo-1106:yethi-consulting-pvt-ltd:1:9nMccwQZ")
