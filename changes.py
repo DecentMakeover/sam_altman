@@ -17,8 +17,6 @@ from langchain_experimental.text_splitter import SemanticChunker
 from langchain_openai import OpenAIEmbeddings
 from langchain_core.prompts import PromptTemplate
 
-os.environ["OPENAI_API_KEY"] = "sk-proj-2uGtEjNF6PFHSrT5Yhu8T3BlbkFJHy5kALQ9CmnyOOQpAwCX"
-openai_api_key = "sk-proj-2uGtEjNF6PFHSrT5Yhu8T3BlbkFJHy5kALQ9CmnyOOQpAwCX"
 st.title('🦜🔗 Replies in Sam Altam Style')# 
 client = OpenAI()
 embeddings = OpenAIEmbeddings()
