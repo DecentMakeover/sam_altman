@@ -4,8 +4,7 @@ import os
 from langchain_openai import ChatOpenAI
 from openai import OpenAI
 import os
-os.environ["OPENAI_API_KEY"] = "sk-proj-2uGtEjNF6PFHSrT5Yhu8T3BlbkFJHy5kALQ9CmnyOOQpAwCX"
-openai_api_key = "sk-proj-2uGtEjNF6PFHSrT5Yhu8T3BlbkFJHy5kALQ9CmnyOOQpAwCX"
+
 st.title('🦜🔗 Replies in Sam Altam Style')# 
 client = OpenAI()
 
